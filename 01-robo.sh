@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI_ID="ami-09c813fb71547fc4f"
-SG_ID="sg-0ecf87a0f9bc8fc5f" # replace with your SG ID
+SG_ID="sg-sg-0ecf87a0f9bc8fc5f #replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "frontend")
 ZONE_ID="Z06819642DWT6M5HGE8YJ" # replace with your ZONE ID
 DOMAIN_NAME="jana-84s.site" # replace with your domain
